@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+div{
+background-color:white;
+width:200px;
+height:150px;
+padding:10px;
+border:2px solid #975fff;
+}
+</style>
+</head>
+<body>
+<center>
+<input type="text" id="str" placeholder="Enter the value"></input>
+<input type="button" onclick="eval()" value="submit"></input>
+<h1>Result : </h1>
+<div id="result"></div>
+<script>
+function eval()
+{
+var pos=0;
+var str=document.getElementById("str").value;
+if(Number.isInteger(parseInt(str)))
+{
+var num=parseInt(str);
+var rem=0,rev=0;
+while(num>0)
+{
+rem=parseInt(num%10);
+rev=rev*10+rem;
+num=parseInt(num/10);
+}
+result.innerHTML="<p>The reverse number is:<strong>"+rev+"</strong</p>";
+}
+else
+ {
+var text="<p>The enter string is :"+str+"</p>";
+for (var i=0;i<str.length;i++)
+{
+if(str.charAt(i) == 'A' || str.charAt(i) == 'E' || str.charAt(i) == 'I' || str.charAt(i) == 'O' || str.charAt(i) == 'U'||str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u')
+{
+text+="<p>The leftmost vowel is:"+str.charAt(i)+"</p>";
+pos=i+1;
+text+="<p>The position of the leftmost vowel is:"+pos+"</p>";
+result.innerHTML=text;
+exit;
+}
+}
+text+="<p>NO vowels found</p>";
+result.innerHTML=text;
+}
+}
+</script>
+</center>
+</body>
+</html>
