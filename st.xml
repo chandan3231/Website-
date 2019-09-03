@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="sty.css"?>
+<list>
+<stu>
+<usn>USN: 4vv17cs404</usn>
+<nam>Name: chandan N</nam>
+<branch>Branch: CSE </branch>
+<year>Year: 2020</year>
+<email>Email: chandan@vvce.ac.in</email>
+</stu>
+<stu>
+<usn>USN: 4vv16IS59081</usn>
+<nam>Name: prajwal</nam>
+<branch>Branch: ISE </branch>
+<year>Year: 2020</year>
+<email>Email: pks@vvce.ac.in</email>
+</stu>
+<stu>
+<usn>USN: 4vv17EC003</usn>
+<nam>Name: unknown</nam>
+<branch>Branch: ECE </branch>
+<year>Year: 2021</year>
+<email>Email: unknown@vvce.ac.in</email>
+</stu>
+<stu>
+<usn>USN: 4vv16cs121</usn>
+<nam>Name: kumar</nam>
+<branch>Branch: CSE</branch>
+<year>Year: 2020</year>
+<email>Email: raj@vvce.ac.in</email>
+</stu>
+</list>
